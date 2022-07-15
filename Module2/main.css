@@ -1,9 +1,12 @@
+body {
+    margin-left: 25px;
+}
 
 p {
     margin-right: auto;
     margin-left: auto;
     width: 90%;
-    height: 120px;
+    height: 140px;
     overflow: hidden;
 }
 .row {
@@ -20,10 +23,10 @@ p {
         float: left;
     }
     .col-md-6 {
-        width: 50%;
+        width: 49%;
     }
     .col-md-12 {
-        width: 100%;
+        width: 99%;
     }
 }
 @media (max-width: 767px) {
@@ -42,7 +45,8 @@ p {
     border: 3px solid black;
     position: relative;
     padding-top: 30px;
-    margin: 10px;
+    margin: 0.31%;
+
 }
 #title1 {
     background-color: pink;
