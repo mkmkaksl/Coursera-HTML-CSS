@@ -47,7 +47,7 @@ body {
     margin-bottom: 50px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .container-fluid .row .main-section {
         border-bottom: none;
         padding: 0 50px 20px 50px;
@@ -71,4 +71,4 @@ body {
     .container-fluid .row .main-section:nth-of-type(1) {
         border-left: 20px solid white;
     }
-}
+} */
