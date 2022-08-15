@@ -32,11 +32,37 @@ body {
     font-weight: bold;
     font-size: 1.6rem;
 }
-
-.main-section {
+main .container-fluid .row .main-section:nth-of-type(0) {
+    border: 20px solid red;
+}
+.container-fluid .row .main-section {
     background-color: gray;
-    max-height: 2000px;
+    min-height: 2000px;
+    max-height: 3000px;
     overflow: hidden;
     margin-top: 20px;
-    padding: 0 30px;
+    padding: 0 40px 20px 40px;
+    border-bottom: 10px solid white;
+}
+.container-fluid .row .main-section:last-child {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .container-fluid .row .main-section {
+        border-right: 20px solid white;
+        border-bottom: none;
+        padding: 0 50px 20px 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .container-fluid .row .main-section {
+        border-right: 20px solid white;
+        border-bottom: 10px solid white;
+        padding: 0 50px 20px 50px;
+    }
+    .container-fluid .row .main-section:last-child {
+        margin-bottom: 50px;
+    }
 }
